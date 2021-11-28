@@ -8,7 +8,7 @@ import db
 import base_functions as bf
 from base_functions import log
 #-------------------------
-TOKEN = '2001565077:AAExSANakEF57adKEiJ5zhSNs4OBT2OCarg' #bot token
+TOKEN = '' #bot token
 bot = telebot.TeleBot(TOKEN)
 #-------------------------
 db.create_tables()
